@@ -355,6 +355,10 @@ a {
     .portfolio p {
         font-size: 13px;
     }
+
+    .portfolio a {
+        font-size: 13px;
+    }
     
     .portfolio h1 {
         font-size: 30px;
