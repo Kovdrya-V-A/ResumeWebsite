@@ -2,6 +2,21 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Medium;
+    src: url(./assets/gilroy-medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: Bold;
+    src: url(./assets/gilroy-bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
 :root{
     --mainWidth: 1200px;
 }
@@ -50,7 +65,7 @@ header a {
 }
 
 h1 {
-    font-family: Gilroy-Bold;
+    font-family: "Bold";
 }
 
 a {
@@ -59,7 +74,7 @@ a {
 
 .navElement {
     text-align: center;
-    font-family: Gilroy-Bold;
+    font-family:"Bold";
     font-size: 18px;
     color: #828282;
 }
@@ -82,19 +97,19 @@ a {
 
 .myName {
     font-size: 47px;
-    font-family: Gilroy-Bold;
+    font-family: "Bold";
 }
 
 .myRole {
     margin: 0 auto;
     font-size: 18px;
     line-height: 22px;
-    font-family: Gilroy-Medium;
+    font-family:"Medium";
 }
 
 .changeLanguage {
     color: #828282;
-    font-family: Gilroy-Bold;
+    font-family: "Bold";
 }
 
 .changeLanguage p {
@@ -123,12 +138,12 @@ a {
 
 .aboutMe p {
     padding-bottom: 20px;
-    font-family: Gilroy-Medium;
+    font-family:"Medium";
 }
 
 .skilsList {
     text-align: center;
-    font-family: Gilroy-Medium;
+    font-family:  "Medium";
     /* background-color: brown; */
     padding-top: 100px;
 }
@@ -169,7 +184,7 @@ a {
 }
 
 .portfolio p {
-    font-family: Gilroy-Medium;
+    font-family: "Medium";
     margin-bottom: 30px;
 }
 
@@ -178,7 +193,7 @@ a {
 }
 
 .portfolio h3 {
-    font-family: Gilroy-Bold;
+    font-family: "Bold";
     padding-bottom: 30px;
 }
 
@@ -203,7 +218,7 @@ a {
 
 
 .contacts p {
-    font-family: Gilroy-Medium;
+    font-family: "Medium";
     margin-bottom: 30px;
 }
 
@@ -328,7 +343,6 @@ a {
     
     .aboutMe p {
         padding-bottom: 20px;
-        font-family: Gilroy-Medium;
         font-size: 13px;
     }
     
