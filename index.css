@@ -155,7 +155,7 @@ a {
 
 
 #stars img{
-    height: 20px;
+    height: 18px;
 }
 
 
@@ -177,6 +177,11 @@ a {
     margin-bottom: 30px;
 }
 
+.portfolio h3 {
+    font-family: Gilroy-Bold;
+    padding-bottom: 30px;
+}
+
 .project {
     margin-bottom: 80px;
 }
@@ -184,6 +189,11 @@ a {
 .project img{
     width: 700px;
     margin-bottom: 10px;
+}
+ 
+.description {
+    margin: 0 auto;
+    width: 700px;
 }
 
 
@@ -231,6 +241,9 @@ a {
         width: 600px;
         margin-bottom: 10px;
     }
+    .description {
+        width: 600px;
+    }
 
     #stars img{
         height: 16px;
@@ -254,6 +267,9 @@ a {
     .project img{
         width: 500px;
         margin-bottom: 10px;
+    }
+    .description {
+        width: 500px;
     }
     #stars img{
         height: 10px;
@@ -382,6 +398,9 @@ a {
         height: 35px;
     }
     .project img{
+        width: 310px;
+    }
+    .description {
         width: 310px;
     }
 }
