@@ -262,6 +262,10 @@ a {
     .skill {
         margin: 0px 5px;
     }
+
+    .skill p {
+        margin-bottom: 28px;
+    }
     .skill img{
         height: 50px;
     }
@@ -269,7 +273,7 @@ a {
 
 @media (max-width: 600px) {
     :root{
-        --mainWidth: 400px;
+        --mainWidth: 350px;
     }
 
     .homePart {
@@ -278,7 +282,7 @@ a {
     }
 
     .navElement {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .myName{
@@ -286,7 +290,7 @@ a {
     }
 
     .myRole {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .changeLanguage{
@@ -309,13 +313,9 @@ a {
     .aboutMe p {
         padding-bottom: 20px;
         font-family: Gilroy-Medium;
-        font-size: 14px;
+        font-size: 13px;
     }
     
-
-
-
-
 
     .skilsList {
         padding-top: 50px;
@@ -328,7 +328,7 @@ a {
     }
     
     .skilsList p {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .skils {
@@ -338,6 +338,7 @@ a {
     
     .skill {
         margin: 0px 5px;
+        padding-bottom: 10px;
     }
 
     .skill p {
@@ -352,7 +353,7 @@ a {
         padding-top: 50px;
     }
     .portfolio p {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .portfolio h1 {
@@ -370,13 +371,13 @@ a {
     }
 
     .contacts p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .contactList a img {
         height: 35px;
     }
     .project img{
-        width: 350px;
+        width: 310px;
     }
 }
