@@ -10,9 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-
-}
 
 .container {
     width: var(--mainWidth);
@@ -267,5 +264,119 @@ a {
     }
     .skill img{
         height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    :root{
+        --mainWidth: 400px;
+    }
+
+    .homePart {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .navElement {
+        font-size: 14px;
+    }
+
+    .myName{
+        font-size: 30px;
+    }
+
+    .myRole {
+        font-size: 14px;
+    }
+
+    .changeLanguage{
+        font-size: 12px;
+    }
+
+    .aboutMe {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color:#F6F6F6 ;
+        text-align: center;
+
+    }
+    
+    .aboutMe h1 {
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .aboutMe p {
+        padding-bottom: 20px;
+        font-family: Gilroy-Medium;
+        font-size: 14px;
+    }
+    
+
+
+
+
+
+    .skilsList {
+        padding-top: 50px;
+    }
+
+    .skilsList h1 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    
+    }
+    
+    .skilsList p {
+        font-size: 14px;
+    }
+    
+    .skils {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .skill {
+        margin: 0px 5px;
+    }
+
+    .skill p {
+        margin-bottom: 20px;
+    }
+
+    .skill img{
+        height: 40px;
+    }
+
+    .portfolio {
+        padding-top: 50px;
+    }
+    .portfolio p {
+        font-size: 14px;
+    }
+    
+    .portfolio h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .project {
+        margin-bottom: 80px;
+    }
+
+    .contacts h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contacts p {
+        font-size: 14px;
+    }
+
+    .contactList a img {
+        height: 35px;
+    }
+    .project img{
+        width: 350px;
     }
 }
